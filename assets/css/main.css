@@ -3,5 +3,10 @@ body {
 }
 
 header {
+  display: flex;
   padding-top: 80px;
+}
+
+.logo {
+  max-width: 320px;
 }
