@@ -9,4 +9,5 @@ header {
 
 .logo {
   max-width: 320px;
+  background-image: /assets/images/logo.png;
 }
