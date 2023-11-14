@@ -16,34 +16,6 @@
  	<meta name="msapplication-TileImage" content="#" />
  	<meta name="format-detection" content="telephone=no" />
  	<base href="/">
- 	<script>
-        function loadContent() {
-            const path = window.location.pathname;
-
-            // If the path ends with a slash, add '.html' to it
-            const normalizedPath = path.endsWith('/') ? `${path}index.html` : `${path}.html`;
-
-            // Load content for the requested HTML page
-            fetch(normalizedPath)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Not found');
-                    }
-                    return response.text();
-                })
-                .then(html => document.getElementById('main-content').innerHTML = html)
-                .catch(() => {
-                    // Handle 404 or redirect to the main page
-                    window.location.href = '/';
-                });
-        }
-
-        // Listen for changes to the URL
-        window.addEventListener('popstate', loadContent);
-
-        // Initial load
-        document.addEventListener('DOMContentLoaded', loadContent);
-    </script>
 </head>
 <body>
 	<div class="main-wrapper">
