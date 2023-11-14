@@ -20,13 +20,13 @@
         function loadContent() {
             const path = window.location.pathname;
 
-            // Normalize the path by removing trailing slashes
-            const normalizedPath = path.replace(/\/$/, '');
+            // Normalize the path by removing leading and trailing slashes
+            const normalizedPath = path.replace(/^\/|\/$/g, '');
 
             // Extract the requested HTML page name
-            const pageName = normalizedPath.substring(1); // Remove the leading slash
+            const pageName = normalizedPath;
 
-            if (normalizedPath === '' || normalizedPath === '/index.html') {
+            if (pageName === '' || pageName === 'index.html') {
                 // Load main content
                 fetch('index.html')
                     .then(response => response.text())
@@ -69,7 +69,7 @@
 		</div>
 		<div class="phone-wrapper">
 			<img class="phone-mockup" src="/images/phone.png">
-			<img class="island-bg" src="assets/images/island.png">
+			<img class="island-bg" src="/images/island.png">
 		</div>
 	</div>
 	<footer>
