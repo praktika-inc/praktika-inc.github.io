@@ -7,7 +7,7 @@ body {
   background-color: #000427;
   font-family: PT Sans, sans-serif;
   color: #fff;
-  padding: 0 20px 0 20px;
+  padding: 100px 20px 40px;
 }
 
 a {
@@ -21,18 +21,18 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin: 100px auto 40px;
+  justify-content: center;
+  gap: 60px;
 }
 
 .usp-wrapper {
   max-width: 300px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding-bottom: 100px;
 }
 
 .logo {
@@ -59,6 +59,7 @@ a {
 
 .phone-wrapper {
   max-width: 320px;
+  margin: 0 auto;
   background-image: url(/assets/images/island.png);
   background-repeat: no-repeat;
   background-size: ;
