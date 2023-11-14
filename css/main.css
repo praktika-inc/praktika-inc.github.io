@@ -1,10 +1,9 @@
-* {
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-*, *::after, *::before {
-  box-sizing: border-box;
 }
 
 html, body {
@@ -17,7 +16,7 @@ html {
 
 body {
   background-color: #000427;
-  font-family: PT Sans, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   padding: 100px 20px 40px;
   box-sizing: border-box;
@@ -53,10 +52,7 @@ a {
 .logo {
   width: 100%;
   height: 104px;
-  background-image: url(/images/logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background: url(/images/logo.png) no-repeat center/contain;
 }
 
 .logo > a,
@@ -83,27 +79,24 @@ a {
 
 .store-button {
   height: 44px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .store-button.apple-badge {
   width: 132px;
-  background-image: url(/images/apple.svg);
+  background: url(/images/apple.svg) no-repeat center/contain;
 }
 
 .store-button.apple-badge:hover {
-  background-image: url(/images/apple-w.svg);
+  background: url(/images/apple-w.svg) no-repeat center/contain;
 }
 
 .store-button.google-badge {
   width: 152px;
-  background-image: url(/images/google.svg);
+  background: url(/images/google.svg) no-repeat center/contain;
 }
 
 .store-button.google-badge:hover {
-  background-image: url(/images/google-w.svg);
+  background: url(/images/google-w.svg) no-repeat center/contain;
 }
 
 .phone-wrapper {
@@ -119,10 +112,10 @@ a {
   position: absolute;
   opacity: 0.7;
   top: -8%;
-  left: 50%; /* Center the image horizontally */
-  transform: translateX(-50%); /* Adjust to center the image */
+  left: 50%;
+  transform: translateX(-50%);
   width: 700px;
-  max-width: none; /* Ensure max-width is not limiting the width */
+  max-width: none;
   height: auto;
   z-index: -1;
 }
