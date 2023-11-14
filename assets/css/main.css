@@ -73,7 +73,7 @@ a {
   height: 44px;
 }
 
-.store-buton.apple-badge {
+.store-button.apple-badge {
   width: 132px;
   background-image: url(assets/images/apple.svg);
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ a {
   background-size: contain;
 }
 
-.store-buton.google-badge {
+.store-button.google-badge {
   width: 152px;
   background-image: url(assets/images/google.svg);
   background-repeat: no-repeat;
