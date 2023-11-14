@@ -20,20 +20,22 @@
         function loadContent() {
             const path = window.location.pathname;
 
-            // Normalize the path by removing leading and trailing slashes
-            const normalizedPath = path.replace(/^\/|\/$/g, '');
+            // Normalize the path by removing trailing slashes
+            const normalizedPath = path.replace(/\/$/, '');
 
-            // Extract the requested HTML page name
-            const pageName = normalizedPath;
-
-            if (pageName === '' || pageName === 'index.html') {
+            if (normalizedPath === '' || normalizedPath === '/index.html') {
                 // Load main content
                 fetch('index.html')
                     .then(response => response.text())
                     .then(html => document.body.innerHTML = html);
-            } else if (pageName.endsWith('.html')) {
-                // Load content for the requested HTML page
-                fetch(pageName)
+            } else if (normalizedPath === '/license') {
+                // Load license content
+                fetch('license.html')
+                    .then(response => response.text())
+                    .then(html => document.body.innerHTML = html);
+            } else if (normalizedPath === '/privacy') {
+                // Load privacy content
+                fetch('privacy.html')
                     .then(response => response.text())
                     .then(html => document.body.innerHTML = html);
             } else {
