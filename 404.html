@@ -1,18 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found</title>
-</head>
-<body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, the requested page does not exist.</p>
-    <p>Redirecting to the home page...</p>
+    <title>Urso – 404 page</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Urso – The Next Level Mindfulness App">
+    <meta property="og:image" content="/images/og-image.png">
+    <meta property="og:title" content="Urso – The Next Level Mindfulness App">
+    <meta property="og:description" content="Take Your Mental Health Up To The Next Level">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-180.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192.png">
+    <meta name="format-detection" content="telephone=no" />
+    <base href="/">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQ8WX2FKGX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QQ8WX2FKGX');
+    </script>
+    <!-- 404 redirect -->
     <script>
         setTimeout(function () {
             window.location.href = "/";
         }, 3000); // Redirect to the home page after 3 seconds
     </script>
+</head>
+<body>
+    <div class="main-wrapper single">
+        <div class="usp-wrapper">
+            <div class="logo">
+                <a href="/"></a>
+            </div>
+            <div class="usp-text">
+                <p>404: Page not found. Redirecting to the home page...</p>
+            </div>
+            <div class="store-buttons-wrapper">
+                <div class="store-button apple-badge">
+                    <a href="https://apple.com/" target="_blank"></a>
+                </div>
+                <div class="store-button google-badge">
+                    <a href="https://google.com/" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links-wrapper">
+            <div class="footer-link">
+                <a href="https://practico.notion.site/Urso-White-Paper-5a237a068ce846c6979db2dc4c04c480/" target="_blank">
+                    <p>White Paper</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="/license/">
+                    <p>License Agreement</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="/privacy/">
+                    <p>Privacy Policy</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="mailto:hi@praktika.app">
+                    <p>Contact Us</p>
+                </a>
+            </div>
+        </div>
+        <div class="legal-text">
+            <p><nobr>2023 © PRAKTIKA, INC.</nobr> <nobr>EIN 87-3267429</nobr> <nobr>7900 Oak Lane,</nobr> Suite&nbsp;400, Miami&nbsp;Lakes, FL, 33016</p>
+        </div>
+    </footer>
 </body>
 </html>
