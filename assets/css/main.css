@@ -24,7 +24,7 @@ body {
   background-image: url(/assets/images/logo.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .usp-text {
