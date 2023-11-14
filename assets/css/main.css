@@ -71,4 +71,6 @@ body {
 
 .legal-text {
   margin: 0 auto;
+  font-size: 12px;
+  line-height: 16px;
 }
