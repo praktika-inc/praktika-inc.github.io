@@ -59,7 +59,8 @@ a {
   background-size: contain;
 }
 
-.logo > a, .store-button > a {
+.logo > a,
+.store-button > a {
   display: block;
   width: 100%;
   height: 100%;
@@ -82,14 +83,14 @@ a {
 
 .store-button {
   height: 44px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .store-button.apple-badge {
   width: 132px;
   background-image: url(/images/apple.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .store-button.apple-badge:hover {
@@ -99,9 +100,6 @@ a {
 .store-button.google-badge {
   width: 152px;
   background-image: url(/images/google.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .store-button.google-badge:hover {
