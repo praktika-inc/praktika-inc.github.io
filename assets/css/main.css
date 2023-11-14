@@ -17,6 +17,7 @@ body {
   color: #fff;
   padding: 100px 20px 40px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 a {
