@@ -73,12 +73,12 @@ a {
   height: 44px;
 }
 
-.store-buton .apple {
+.store-buton .apple-badge {
   width: 132px;
   background-image: url(assets/images/apple.svg);
 }
 
-.store-buton .google {
+.store-buton .google-badge {
   width: 152px;
   background-image: url(assets/images/google.svg);
 }
