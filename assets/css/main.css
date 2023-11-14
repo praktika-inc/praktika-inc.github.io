@@ -5,16 +5,20 @@ body {
 }
 
 .main-wrapper {
+  max-width: 820px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: space-between;
   margin: 100px auto 40px;
 }
 
 .usp-wrapper {
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 40px;
   padding-bottom: 100px;
 }
 
