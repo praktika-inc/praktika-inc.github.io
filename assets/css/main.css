@@ -75,11 +75,20 @@ a {
   z-index: -1;
 }
 
+footer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
 .links-wrapper {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   font-size: 16px;
@@ -95,16 +104,6 @@ a {
   text-align: center;
 }
 
-footer {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding-bottom: 40px;
-}
-
 @media only screen and (max-width: 899px) {
   .main-wrapper {
     display: flex;
@@ -114,5 +113,13 @@ footer {
 
   .usp-wrapper {
     margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .links-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
