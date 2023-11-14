@@ -60,13 +60,27 @@ a {
   text-align: center;
 }
 
-.buttons-wrapper {
+.store-buttons-wrapper {
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
+}
+
+.store-button {
+  height: 44px;
+}
+
+.store-buton .apple {
+  width: 132px;
+  background-image: url(assets/images/apple.svg);
+}
+
+.store-buton .google {
+  width: 152px;
+  background-image: url(assets/images/google.svg);
 }
 
 .phone-wrapper {
