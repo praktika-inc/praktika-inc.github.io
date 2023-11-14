@@ -78,7 +78,7 @@ a {
   line-height: 16px;
 }
 
-.footer {
+footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
