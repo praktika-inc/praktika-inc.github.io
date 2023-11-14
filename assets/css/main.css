@@ -54,6 +54,12 @@ a {
   background-size: contain;
 }
 
+.logo > a, .store-button > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .usp-text {
   font-size: 24px;
   line-height: 32px;
