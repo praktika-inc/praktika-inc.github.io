@@ -72,6 +72,8 @@ a {
 
 .island-bg {
   position: absolute;
+  top: 0px;
+  width: 772px;
 }
 
 .links-wrapper {
