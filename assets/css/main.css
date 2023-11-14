@@ -1,7 +1,12 @@
 body {
   background-color: #000427;
   font-family: PT Sans, sans-serif;
-  color: #ffffff;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .main-wrapper {
@@ -65,8 +70,6 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #fff;
-  text-decoration: none;
 }
 
 .legal-text {
