@@ -114,9 +114,10 @@ a {
   position: absolute;
   opacity: 0.7;
   top: -8%;
-  left: -56%;
-  width: 200%;
-  max-width: none;
+  left: 50%; /* Center the image horizontally */
+  transform: translateX(-50%); /* Adjust to center the image */
+  width: 700px;
+  max-width: none; /* Ensure max-width is not limiting the width */
   height: auto;
   z-index: -1;
 }
