@@ -11,10 +11,6 @@ html {
   width: 100%;
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
 body {
   background-color: #000427;
   font-family: PT Sans, sans-serif;
@@ -134,6 +130,10 @@ footer {
 }
 
 @media (max-width: 599px) {
+  footer {
+    gap:40px;
+  }
+
   .footer-links-wrapper {
     display: flex;
     flex-direction: column;
