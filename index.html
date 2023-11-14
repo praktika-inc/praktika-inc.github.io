@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Urso</title>
-	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/css/main.css">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
  	<meta name="description" content="Urso – The Next Level Mindfulness App">
  	<meta property="og:image" content="#">
@@ -23,14 +23,17 @@
             // Normalize the path by removing trailing slashes
             const normalizedPath = path.replace(/\/$/, '');
 
+            // Extract the requested HTML page name
+            const pageName = normalizedPath.substring(1); // Remove the leading slash
+
             if (normalizedPath === '' || normalizedPath === '/index.html') {
                 // Load main content
                 fetch('index.html')
                     .then(response => response.text())
                     .then(html => document.body.innerHTML = html);
-            } else if (normalizedPath === '/license') {
-                // Load license content
-                fetch('license.html')
+            } else if (pageName.endsWith('.html')) {
+                // Load content for the requested HTML page
+                fetch(pageName)
                     .then(response => response.text())
                     .then(html => document.body.innerHTML = html);
             } else {
@@ -65,7 +68,7 @@
 			</div>
 		</div>
 		<div class="phone-wrapper">
-			<img class="phone-mockup" src="/assets/images/phone.png">
+			<img class="phone-mockup" src="/images/phone.png">
 			<img class="island-bg" src="assets/images/island.png">
 		</div>
 	</div>

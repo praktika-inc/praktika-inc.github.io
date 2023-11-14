@@ -47,7 +47,7 @@ a {
 .logo {
   width: 100%;
   height: 104px;
-  background-image: url(/assets/images/logo.png);
+  background-image: url(/images/logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -80,26 +80,26 @@ a {
 
 .store-button.apple-badge {
   width: 132px;
-  background-image: url(/assets/images/apple.svg);
+  background-image: url(/images/apple.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .store-button.apple-badge:hover {
-  background-image: url(/assets/images/apple-w.svg);
+  background-image: url(/images/apple-w.svg);
 }
 
 .store-button.google-badge {
   width: 152px;
-  background-image: url(/assets/images/google.svg);
+  background-image: url(/images/google.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .store-button.google-badge:hover {
-  background-image: url(/assets/images/google-w.svg);
+  background-image: url(/images/google-w.svg);
 }
 
 .phone-wrapper {
