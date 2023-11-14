@@ -3,11 +3,24 @@
   padding: 0;
 }
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #000427;
   font-family: PT Sans, sans-serif;
   color: #fff;
   padding: 100px 20px 40px;
+  box-sizing: border-box;
 }
 
 a {
@@ -104,7 +117,7 @@ footer {
   text-align: center;
 }
 
-@media only screen and (max-width: 899px) {
+@media (max-width: 899px) {
   .main-wrapper {
     display: flex;
     flex-direction: column;
@@ -116,7 +129,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media (max-width: 599px) {
   .links-wrapper {
     display: flex;
     flex-direction: column;
