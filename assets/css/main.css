@@ -18,6 +18,7 @@ a {
   max-width: 820px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
   margin: 100px auto 40px;
@@ -28,7 +29,6 @@ a {
   max-width: 300px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
