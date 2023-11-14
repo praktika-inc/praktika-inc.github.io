@@ -74,3 +74,12 @@ body {
   font-size: 12px;
   line-height: 16px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
+}
