@@ -24,9 +24,11 @@ a {
 }
 
 .usp-wrapper {
+  min-width: 240px;
   max-width: 300px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -56,6 +58,7 @@ a {
 }
 
 .phone-wrapper {
+  min-width: 240px;
   max-width: 320px;
   background-image: url(/assets/images/island.png);
   background-repeat: no-repeat;
