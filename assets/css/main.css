@@ -128,7 +128,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   padding-bottom: 40px;
 }
 
@@ -168,10 +168,6 @@ footer {
 }
 
 @media (max-width: 599px) {
-  footer {
-    gap:40px;
-  }
-
   .footer-links-wrapper {
     display: flex;
     flex-direction: column;
