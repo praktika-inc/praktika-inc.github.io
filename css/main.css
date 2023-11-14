@@ -17,6 +17,8 @@ body {
   color: #fff;
   padding: 100px 20px 40px;
   box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 a {
@@ -31,8 +33,6 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 .usp-wrapper {
