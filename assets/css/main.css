@@ -135,4 +135,7 @@ footer {
     flex-direction: column;
     gap: 20px;
   }
+  .legal-text {
+    max-width: 300px;
+  }
 }
