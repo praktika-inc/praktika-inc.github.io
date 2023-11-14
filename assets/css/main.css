@@ -162,6 +162,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 60px;
   }
 }
 
