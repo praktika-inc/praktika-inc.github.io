@@ -20,15 +20,13 @@ a {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  gap: 60px;
+  justify-content: space-between;
 }
 
 .usp-wrapper {
   max-width: 300px;
-  margin: 0 auto;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,7 +53,7 @@ a {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
 }
@@ -63,7 +61,6 @@ a {
 .phone-wrapper {
   position: relative;
   max-width: 320px;
-  margin: 0 auto;
 }
 
 .phone-mockup {
@@ -106,4 +103,16 @@ footer {
   align-items: center;
   gap: 20px;
   padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 899px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .usp-wrapper {
+    margin-bottom: 60px;
+  }
 }
