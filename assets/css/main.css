@@ -62,4 +62,9 @@ body {
   flex-direction: row;
   justify-content: center;
   gap: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
 }
