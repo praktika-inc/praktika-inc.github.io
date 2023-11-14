@@ -76,11 +76,17 @@ a {
 .store-buton.apple-badge {
   width: 132px;
   background-image: url(assets/images/apple.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .store-buton.google-badge {
   width: 152px;
   background-image: url(assets/images/google.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .phone-wrapper {
