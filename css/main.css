@@ -7,9 +7,12 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 html {
   width: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -32,7 +35,6 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  overflow-x: hidden;
 }
 
 .usp-wrapper {
