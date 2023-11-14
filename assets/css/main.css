@@ -36,7 +36,11 @@ body {
   line-height: 32px;
 }
 
-.buttons-wtapper {
+.buttons-wrapper {
   display: flex;
   flex-direction: row;
+}
+
+.phone-wrapper {
+  max-width: 320px;
 }
