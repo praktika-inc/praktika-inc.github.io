@@ -35,3 +35,8 @@ body {
   font-size: 24px;
   line-height: 32px;
 }
+
+.buttons-wtapper {
+  display: flex;
+  flex-direction: row;
+}
