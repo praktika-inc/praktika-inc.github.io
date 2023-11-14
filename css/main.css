@@ -37,6 +37,10 @@ a {
   justify-content: space-between;
 }
 
+.main-wrapper.single {
+  justify-content: center;
+}
+
 .usp-wrapper {
   max-width: 300px;
   display: flex;
