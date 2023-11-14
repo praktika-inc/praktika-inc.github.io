@@ -161,6 +161,18 @@ footer {
   text-align: center;
 }
 
+.legal {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.legal > p {
+  margin-bottom: 8px;
+}
+
+
 @media (max-width: 899px) {
   .main-wrapper {
     display: flex;
