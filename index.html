@@ -15,6 +15,33 @@
  	<link rel="apple-touch-icon" href="#" />
  	<meta name="msapplication-TileImage" content="#" />
  	<meta name="format-detection" content="telephone=no" />
+ 	<base href="/">
+ 	<script>
+    	function loadContent() {
+    	    const path = window.location.pathname;
+
+	    	    if (path === '/' || path === '/index.html') {
+    	        // Load main content
+    	        fetch('index.html')
+    	            .then(response => response.text())
+    	            .then(html => document.body.innerHTML = html);
+    	    } else if (path === '/license' || path === '/license.html') {
+    	        // Load license content
+    	        fetch('license.html')
+    	            .then(response => response.text())
+    	            .then(html => document.body.innerHTML = html);
+    	    } else {
+    	        // Handle 404 or redirect to the main page
+    	        window.location.href = '/';
+    	    }
+    	}
+
+	    	// Listen for changes to the URL
+    	window.addEventListener('popstate', loadContent);
+
+	    	// Initial load
+    	document.addEventListener('DOMContentLoaded', loadContent);
+	</script>
 </head>
 <body>
 	<div class="main-wrapper">
