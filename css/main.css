@@ -180,14 +180,6 @@ footer {
   text-decoration: underline;
 }
 
-.legal-text {
-  margin: 0 auto;
-  color: #96969B;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-}
-
 .legal {
   margin: 80px auto 0;
   max-width: 640px;
@@ -232,8 +224,5 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 32px;
-  }
-  .legal-text {
-    max-width: 320px;
   }
 }
