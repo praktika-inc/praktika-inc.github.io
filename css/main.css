@@ -231,7 +231,7 @@ footer {
   .footer-links-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 32px;
   }
   .legal-text {
     max-width: 320px;
