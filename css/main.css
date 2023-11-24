@@ -131,16 +131,53 @@ footer {
   gap: 40px;
 }
 
+.social-icons-wrapper,
 .footer-links-wrapper {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social-icons-wrapper {
+  gap: 24px;
+}
+
+.social-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.social-icon.facebook-icon {
+  background: url(/images/facebook.svg) no-repeat center/contain;
+}
+
+.social-icon.facebook-icon:hover {
+  background: url(/images/facebook-w.svg) no-repeat center/contain;
+}
+
+.social-icon.instagram-icon {
+  background: url(/images/instagram.svg) no-repeat center/contain;
+}
+
+.social-icon.instagram-icon:hover {
+  background: url(/images/instagram-w.svg) no-repeat center/contain;
+}
+
+.social-icon.tiktok-icon {
+  background: url(/images/tiktok.svg) no-repeat center/contain;
+}
+
+.social-icon.tiktok-icon:hover {
+  background: url(/images/tiktok-w.svg) no-repeat center/contain;
+}
+
+.footer-links-wrapper {
   gap: 40px;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  list-style-type: none;
 }
 
 .footer-link:hover {
