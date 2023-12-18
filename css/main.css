@@ -143,6 +143,11 @@ footer {
   list-style-type: none;
 }
 
+.rating-wrapper > p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .social-icon {
   width: 40px;
   height: 40px;
