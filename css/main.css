@@ -155,6 +155,16 @@ footer {
   margin: 0;
 }
 
+.product-hunt-button {
+  width: 204px;
+  height: 44px;
+  background: url(/images/ph.svg) no-repeat center/contain;
+}
+
+.product-hunt-button:hover {
+  background: url(/images/ph-w.svg) no-repeat center/contain;
+}
+
 .social-icon {
   width: 44px;
   height: 44px;
@@ -239,5 +249,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+  .rating-wrapper > p {
+    text-align: center;
   }
 }
