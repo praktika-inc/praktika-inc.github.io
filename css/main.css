@@ -244,7 +244,14 @@ footer {
     width: 44px;
     height: 44px;
   }
-  .testimonials-wrapper,
+  .testimonials-wrapper {
+    flex-direction: column;
+    gap: 52px;
+    align-items: center;
+  }
+  }
+
+
   .footer-links-wrapper {
     display: flex;
     flex-direction: column;
