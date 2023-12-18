@@ -234,6 +234,7 @@ footer {
     width: 44px;
     height: 44px;
   }
+  .testimonials-wrapper,
   .footer-links-wrapper {
     display: flex;
     flex-direction: column;
