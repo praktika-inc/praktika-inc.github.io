@@ -132,6 +132,7 @@ footer {
   gap: 40px;
 }
 
+.testimonials-wrapper,
 .social-icons-wrapper,
 .footer-links-wrapper {
     margin: 0 auto;
