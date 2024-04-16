@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "HLNUPSA6JL.app.practico.urso",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
