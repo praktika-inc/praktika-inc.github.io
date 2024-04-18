@@ -1,10 +1,18 @@
 {
   "applinks": {
-      "apps": [],
-      "details": [
+    "apps": [],
+    "details": [
+      {
+        "appID": "HLNUPSA6JL.app.practico.urso.dev",
+        "paths": [
+          "/dev-app/*"
+        ]
+      },
       {
         "appID": "HLNUPSA6JL.app.practico.urso",
-        "paths": ["*"]
+        "paths": [
+          "/app/*"
+        ]
       }
     ]
   }
