@@ -32,6 +32,12 @@
         'ad_personalization': 'granted',
         'analytics_storage': 'granted'
       });
+      
+      // Enable additional Google Analytics features after consent
+      gtag('config', 'G-QQ8WX2FKGX', {
+        'allow_google_signals': true,
+        'allow_ad_personalization_signals': true
+      });
     }
     
     // Load Facebook Pixel

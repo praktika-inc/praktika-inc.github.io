@@ -18,5 +18,9 @@ gtag('consent', 'default', {
 
 gtag('js', new Date());
 gtag('config', 'G-QQ8WX2FKGX', {
-  'anonymize_ip': true
+  'anonymize_ip': true,
+  'cookie_expires': 63072000, // 2 years in seconds
+  'cookie_update': false, // Prevent cookie expiry overwrites
+  'allow_google_signals': false, // Disable cross-device tracking by default
+  'allow_ad_personalization_signals': false // Disable ad personalization by default
 });

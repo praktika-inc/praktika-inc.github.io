@@ -16,6 +16,10 @@ function loadFacebookPixel() {
   'https://connect.facebook.net/en_US/fbevents.js');
   
   fbq('init', '276771194920464');
+  
+  // Set proper domain for cookies
+  fbq('set', 'autoConfig', false, '276771194920464');
+  
   fbq('track', 'PageView');
   
   window.fbqLoaded = true;
